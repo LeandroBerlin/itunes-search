@@ -1,0 +1,15 @@
+{
+  "name": "itunes-search",
+  "private": true,
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec 'micro -p 3001' -w index.js"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "micro": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
