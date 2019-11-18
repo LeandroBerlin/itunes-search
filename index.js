@@ -6,7 +6,8 @@ const { send } = require('micro')
 
 module.exports = async (req, res) => {
   const { query } = parse(req.url)
-
+  /* set headers Access-Control-Allow-Origin
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin */
   res.setHeader('Access-Control-Allow-Origin', '*')
   res.setHeader('Content-Type', 'application/json')
 
