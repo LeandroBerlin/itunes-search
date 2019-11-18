@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "name": "dci-fbw12-search-itunes",
-  "alias": "dci-fbw12-search-itunes.now.sh",
-  "builds": [{ "src": "index.js", "use": "@now/node" }]
+  "name": "search-itunes",
+  "alias": "search-itunes.now.sh",
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    }
+  ]
 }
